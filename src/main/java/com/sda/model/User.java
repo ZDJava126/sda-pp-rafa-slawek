@@ -1,5 +1,5 @@
 
-package com.model;
+package com.sda.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -17,7 +17,7 @@ import java.util.Objects;
 @Builder
 @ToString
 
-class User{
+public class User{
     @Id
     private String username;
     private String password;
